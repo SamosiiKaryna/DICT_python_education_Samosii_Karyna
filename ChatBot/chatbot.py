@@ -19,3 +19,16 @@ print("Counting numbers from" + str(fromnum))
 for number in range (fromnum + 1):
     print(number, " ! ")
 print("Completed, have a nice day!")
+
+print("Let's test your programming knowledge.")
+print("Why do we use methods?")
+print("1.To repeat a statement multiple times.""\n2.To decompose a program into subroutines.""\n3.To determine the execution time of a program.""\n4.To interrupt the execution of a program.")
+guess = 0
+while guess !=2:
+ guess = int(input("Try to guess the answer:"))
+if (guess > 2):
+    print("Please, try again!")
+if (guess < 2):
+    print("Please, try again!")
+if (guess == 2):
+    print("Completed, have a nice day!""\nCongratulations, have a nice day!")
