@@ -12,3 +12,10 @@ remainder5 = input(">")
 remainder7 = input(">")
 age = (int(remainder3) * 70 + int(remainder5) * 21 + int(remainder7) * 15) % 105
 print("Your age is" ,age, "; that's a good time to start programming!")
+
+print("Now I will prove to you that I can count to any number you want.")
+fromnum = int(input(">"))
+print("Counting numbers from" + str(fromnum))
+for number in range (fromnum + 1):
+    print(number, " ! ")
+print("Completed, have a nice day!")
